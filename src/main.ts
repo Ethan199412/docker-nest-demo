@@ -10,7 +10,7 @@ async function bootstrap() {
   // app.useGlobalFilters(new HttpExceptionFilter())
   const options = new DocumentBuilder().setTitle('xiaoT的飞机').setDescription('xxx').setVersion('1').build()
   const doc = SwaggerModule.createDocument(app, options)
-  await app.listen(3010);
+  await app.listen(3000); // haha
 
 }
 bootstrap();
